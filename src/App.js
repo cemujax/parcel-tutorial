@@ -1,3 +1,3 @@
 import React from "react";
-
-export default () => <div>App</div>;
+import styles from "./styles.scss";
+export default () => <div className={styles.title}>App</div>;
